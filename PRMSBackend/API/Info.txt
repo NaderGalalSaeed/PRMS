@@ -1,0 +1,9 @@
+﻿Scaffold-DbContext "Server=DARK-PC;Database=ERPCleanTest;Trusted_Connection=True;Encrypt=False;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir ScaffoldModels -
+
+Add-Migration first -Context ApplicationDbContext
+Update-Database -Context ApplicationDbContext
+
+Add-Migration first -Context IdentityContext
+Update-Database -Context IdentityContext
+
+Drop-Database -Context IdentityContext

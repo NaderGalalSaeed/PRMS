@@ -86,18 +86,6 @@ The system enforces the following business rules:
 
 ---
 
-## Project Structure
-
-```text
-src/
- ├── API
- ├── Application
- ├── Domain
- ├── Infrastructure
- └── WinForms
-
----
-
 ## Database Migrations
 
 On the Infrastructure project:
@@ -144,6 +132,18 @@ Nationalities:
 - DELETE /api/nationalities/{id}
 
 ----
+
+## Project Structure
+
+```text
+src/
+ ├── API
+ ├── Application
+ ├── Domain
+ ├── Infrastructure
+ └── WinForms
+
+---
 
 
 

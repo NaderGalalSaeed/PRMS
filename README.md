@@ -133,6 +133,18 @@ Nationalities:
 
 ----
 
+## Run the project
+
+Backend
+- Edit ConnectionStrings section in the appsettings.json
+- Eidt launchSettings.json => I use https profile
+- Run the API project
+
+Frontend
+- Identify ServerIP in ApiRoutes.cs (the link in launchSettings.json)
+
+----
+
 ## Project Structure
 
 ```text
@@ -144,14 +156,3 @@ src/
  └── WinForms
 
 ---
-
-
-
-
-
-
-
-
-
-
-
